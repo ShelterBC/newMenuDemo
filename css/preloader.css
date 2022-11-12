@@ -7,8 +7,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 10000;
     position: absolute;
+    z-index: 1000;
     top: 0;
     left: 0;
 }
@@ -84,4 +84,7 @@
 
 .loaded .Loader, .loaded .wrapper {
     animation-name: fade;
+    animation-duration: 1.8s;
+    display: none;
+
 }
